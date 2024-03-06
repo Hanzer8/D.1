@@ -1,0 +1,14 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <p>&nbsp;</p>
+    <h2 style="text-align: center;"><span style="color: #000000;">{{ flatpage.title }}</span></h2>
+    <hr />
+    <p style="text-align: center;"><strong><span style="color: #000000;">Наши контакты:</span></strong></p>
+    <h3 style="text-align: center;"><span style="color: #339966;">{{ flatpage.content }}</span></h3>
+    <p style="text-align: center;"><span style="color: #339966;"><img src="https://3fc4ed44-3fbc-419a-97a1-a29742511391.selcdn.net/coub_storage/coub/simple/cw_timeline_pic/b60e4dd064a/bbd981d9709957e21dcae/med_1473369667_image.jpg" alt="" width="357" height="284" /></span></p>
+{% endblock content %}
